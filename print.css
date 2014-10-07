@@ -1,0 +1,144 @@
+@page {
+	margin: 0.5in;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	font-family: Arial;
+	font-size: 10pt;
+	color: #333;
+}
+
+img {
+	border: 0;
+}
+
+#content {
+	background: white;
+}
+
+#content h1, 
+#content h2 {
+	text-align: right;
+}
+
+#content h1 {
+	font-size: 1.8em;
+}
+
+#content h2 {
+	font-size: 1em;
+	padding: 0 0 18px;
+	margin: 0 0 36px;
+	border-bottom: 1px solid #555;
+}
+
+#content h3,
+#content div.information dt {
+	font-weight: bold;
+	color: #555;
+	letter-spacing: -0.1em;
+	line-height: 1.5em;
+	font-size: 1.3em;
+	font-family: Verdana;
+	text-transform: lowercase;
+	border-bottom: 1px solid #555;
+}
+
+dl dd {
+	margin-bottom: 10px;
+}
+
+#content ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+#content div.information {
+	text-align: right;
+	float: left;
+	width: 20%;
+	padding: 0 5% 0 0;
+	clear: left;
+}
+
+#content div.information ul li {
+	list-style: none;
+}
+
+
+#content div.main {
+	float: right;
+	width: 75%;
+	clear: right;
+}
+
+#content div.footer {
+	display: none;
+}
+
+#content div.main h3 {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+#content div.main h4 {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1em;
+}
+
+#content div.main h5 {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 0.8em;
+	margin-bottom: 5px;
+}
+
+#content div.main ul {
+	margin: 9px auto;
+}
+
+#content div.main dt,
+#content div.main dd {
+	display: block;
+	float: left;
+
+}
+
+#content div.main dt {
+	clear: both;
+	width: 20%;
+}
+
+#content div.main dd {
+	width: 80%;
+}
+
+a:link, 
+a:visited { 
+	color: #888; 
+	background: transparent; 
+	font-weight: bold;
+	text-decoration: underline; 
+}
+	
+#content div.main a:link:after, 
+#content div.main a:visited:after {
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}
+
+#content a.vcard-dl {
+	display: none;
+}
+
+#content div.main div.section {
+	page-break-inside: avoid;
+}
