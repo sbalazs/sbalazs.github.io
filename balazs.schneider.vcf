@@ -1,6 +1,7 @@
 BEGIN:VCARD
 N:Schneider;Balazs
-EMAIL;INTERNET:balazs.schneider@gmail.com
-TEL;CELL:+36205945418
-TITLE:PHP Developer
+EMAIL;INTERNET:schneider.balazs@devsome.hu
+TEL;CELL:+36705947688
+TITLE:Lead PHP Developer
+ORG:Devsome Kft.
 END:VCARD
